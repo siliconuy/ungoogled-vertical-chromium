@@ -4,7 +4,10 @@
         "dockerfile": "Dockerfile"
     },
     "features": {
-        "ghcr.io/mamba-org/devcontainer-features/micromamba:1": {}
+        "ghcr.io/mamba-org/devcontainer-features/micromamba:1": {},
+        "ghcr.io/devcontainers/features/sshd:1": {
+            "version": "latest"
+        }
     },
     "remoteUser": "root",
     
