@@ -1,0 +1,39 @@
+image:
+  file: .gitpod.Dockerfile
+
+vscode:
+  extensions:
+    - bedirt.gpt-token-counter-live
+    - codezombiech.gitignore
+    - cweijan.vscode-office
+    - donjayamanne.githistory
+    - donjayamanne.python-environment-manager
+    - esbenp.prettier-vscode
+    - github.copilot
+    - github.copilot-chat
+    - kevinrose.vsc-python-indent
+    - mechatroner.rainbow-csv
+    - ms-azuretools.vscode-docker
+    - ms-python.debugpy
+    - ms-python.python
+    - ms-python.vscode-pylance
+    - ms-toolsai.jupyter
+    - ms-toolsai.jupyter-keymap
+    - ms-toolsai.jupyter-renderers
+    - ms-vscode.cmake-tools
+    - ms-vscode.cpptools
+    - ms-vscode.cpptools-extension-pack
+    - ms-vscode.cpptools-themes
+    - pkief.material-icon-theme
+    - qwtel.sqlite-viewer
+    - svelte.svelte-vscode
+    - twxs.cmake
+    - vue.volar
+    - yy0931.vscode-sqlite3-editor
+    - yzane.markdown-pdf
+    - yzhang.markdown-all-in-one
+
+tasks:
+  - init: |
+      sudo apt-get update
+      sudo apt-get install -y gh git curl wget docker.io
