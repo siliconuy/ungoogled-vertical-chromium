@@ -1,0 +1,15 @@
+{
+    "name": "Ungoogled Chromium Dev Container",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-vscode.cpptools"
+    ],
+    "postCreateCommand": "pip install -r requirements.txt",
+    "postStartCommand": "chmod +x ./build.sh && chmod +x ./run_tests.sh",
+    "remoteUser": "vscode"
+}
